@@ -1,0 +1,18 @@
+POST http://localhost:8080/orderbook HTTP/1.1
+Content-Type: application/json
+
+{
+    "preco": "0.3462",
+    "taxa": "+0.0034%",
+    "horario": "01:12:18",
+    "corretora": "Coinex",
+    "moeda": "MKR",
+    "bids": [
+        { "preco": "0.3460", "quantidade": "25.43K", "acumulado": "25.43K" },
+        { "preco": "0.3459", "quantidade": "33.24K", "acumulado": "58.67K" }
+    ],
+    "asks": [
+        { "preco": "0.3462", "quantidade": "40.35K", "acumulado": "40.35K" },
+        { "preco": "0.3463", "quantidade": "21.40K", "acumulado": "61.75K" }
+    ]
+}
